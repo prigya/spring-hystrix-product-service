@@ -26,7 +26,9 @@ public class ProductServiceController {
 	        categoryDB.put("CATEG-A", lst);
 	 
 	        lst = new ArrayList<Product>();
-	        std = new Product("PRD-8", "COMP-ASD");
+	        std = new Product("PRD-7", "COMP-ASD");
+	        lst.add(std);
+	        std = new Product("PRD-8", "COMP-RT");
 	        lst.add(std);
 	        std = new Product("PRD-9", "COMP-RT");
 	        lst.add(std);
